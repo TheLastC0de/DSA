@@ -1,0 +1,7 @@
+import java.util.Scanner; public
+class Mainf public static void main(String0] args) int [arr=/15,5,20,35,2,42,67,17); Scanner sc=new Scanner(System.in) int middlelndex=arr.length/2; System.out.println("Middle index: "+ middlelndex); System.out.println("Enter the no. to search: "); int key=sc.nextlnt(); int pos=-1; for(int i=0;i<arr.length;i++)( System.out.println(arr[i]+""); if(arr[i]==key) pos=i;
+break;
+System.out.println(); if(pos==-1)(
+System.out.println("Not found");
+1else System.out.println("Found at index: "+pos);
+sc.close();
